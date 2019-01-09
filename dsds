@@ -1,0 +1,77 @@
+[33mcommit 2f915258c359e35ea4478a1c8a521cb08ba8d7d8[m
+Author: gf2panc <bartlomiej.pancerski@commerzsystems.com>
+Date:   Wed Nov 14 13:01:52 2018 +0100
+
+    Changeconfig
+
+[33mcommit 00b109bb5699e48e1c8d012fc022c5ed6df863c8[m
+Author: gf2panc <bartlomiej.pancerski@commerzsystems.com>
+Date:   Tue Nov 13 16:03:45 2018 +0100
+
+    AddReservationService
+
+[33mcommit 9430601d82d7ea8420f12388b0b92df99ec4b310[m
+Author: gf2panc <bartlomiej.pancerski@commerzsystems.com>
+Date:   Tue Nov 13 15:36:32 2018 +0100
+
+    repairViewModel
+
+[33mcommit 4f945b9f243df5f8734afe99dca6d8cf0904b158[m
+Author: gf2panc <bartlomiej.pancerski@commerzsystems.com>
+Date:   Tue Nov 13 15:20:46 2018 +0100
+
+    CustomizeViewModel
+
+[33mcommit d1abc0cb2511f109af9d4c47f5d224b98085a81b[m
+Author: gf2panc <bartlomiej.pancerski@commerzsystems.com>
+Date:   Tue Nov 13 15:12:07 2018 +0100
+
+    AddViewModel
+
+[33mcommit 1b0f5944aff872d0c8216dc1abcffcb205d361c6[m
+Author: gf2panc <bartlomiej.pancerski@commerzsystems.com>
+Date:   Tue Nov 13 14:56:54 2018 +0100
+
+    CreateDataSolution
+
+[33mcommit fc45eaff70ca1304e355a447bc68c7af5207b5b0[m
+Author: gf2panc <bartlomiej.pancerski@commerzsystems.com>
+Date:   Tue Nov 13 14:55:14 2018 +0100
+
+    AplitMainProject
+
+[33mcommit bb87a1ce2f179dc0b2d5ab4eb5f9ecf3c3d2231e[m
+Author: gf2panc <bartlomiej.pancerski@commerzsystems.com>
+Date:   Tue Nov 13 14:53:25 2018 +0100
+
+    DeleteTableService
+
+[33mcommit f05979f7872793bb77b3110f08e4c6058ae22d24[m
+Author: gf2panc <bartlomiej.pancerski@commerzsystems.com>
+Date:   Tue Nov 13 14:49:03 2018 +0100
+
+    AddReservationSolutionToSolution
+
+[33mcommit 815f76772d8ca6503785dceb4b69408855b1d592[m
+Author: gf2panc <bartlomiej.pancerski@commerzsystems.com>
+Date:   Tue Nov 13 14:44:37 2018 +0100
+
+    DeleteServiceAccess
+
+[33mcommit a5de966a66b502fc260432c7ab6a7c4b61b298fe[m
+Author: gf2panc <bartlomiej.pancerski@commerzsystems.com>
+Date:   Tue Nov 13 14:41:01 2018 +0100
+
+    AddModelData
+
+[33mcommit 86890a6401783b66972f950b61a994083b51369c[m
+Author: gf2panc <bartlomiej.pancerski@commerzsystems.com>
+Date:   Tue Nov 13 14:39:18 2018 +0100
+
+    AddDataAndModelToProjestSolution
+
+[33mcommit 793a14f5038a85621e65154d3ee95854fa2e1b4c[m
+Author: gf2panc <bartlomiej.pancerski@commerzsystems.com>
+Date:   Fri Nov 9 12:37:40 2018 +0100
+
+    InitRepo

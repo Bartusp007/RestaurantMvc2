@@ -1,0 +1,17 @@
+C:\p\RestaurantMvc\RestaurantMvc.Model\bin\Debug\RestaurantMvc.Model.dll
+C:\p\RestaurantMvc\RestaurantMvc.Model\bin\Debug\RestaurantMvc.Model.pdb
+C:\p\RestaurantMvc\RestaurantMvc.Model\bin\Debug\System.Web.Helpers.dll
+C:\p\RestaurantMvc\RestaurantMvc.Model\bin\Debug\System.Web.Mvc.dll
+C:\p\RestaurantMvc\RestaurantMvc.Model\bin\Debug\System.Web.Razor.dll
+C:\p\RestaurantMvc\RestaurantMvc.Model\bin\Debug\System.Web.WebPages.Deployment.dll
+C:\p\RestaurantMvc\RestaurantMvc.Model\bin\Debug\System.Web.WebPages.dll
+C:\p\RestaurantMvc\RestaurantMvc.Model\bin\Debug\System.Web.WebPages.Razor.dll
+C:\p\RestaurantMvc\RestaurantMvc.Model\bin\Debug\System.Web.Helpers.xml
+C:\p\RestaurantMvc\RestaurantMvc.Model\bin\Debug\System.Web.Mvc.xml
+C:\p\RestaurantMvc\RestaurantMvc.Model\bin\Debug\System.Web.Razor.xml
+C:\p\RestaurantMvc\RestaurantMvc.Model\bin\Debug\System.Web.WebPages.xml
+C:\p\RestaurantMvc\RestaurantMvc.Model\bin\Debug\System.Web.WebPages.Deployment.xml
+C:\p\RestaurantMvc\RestaurantMvc.Model\bin\Debug\System.Web.WebPages.Razor.xml
+C:\p\RestaurantMvc\RestaurantMvc.Model\obj\Debug\RestaurantMvc.Model.dll
+C:\p\RestaurantMvc\RestaurantMvc.Model\obj\Debug\RestaurantMvc.Model.pdb
+C:\p\RestaurantMvc\RestaurantMvc.Model\obj\Debug\RestaurantMvc.Model.csprojResolveAssemblyReference.cache
