@@ -1,0 +1,1 @@
+C:\p\RestaurantMvc\RestaurantMvc.Web.Tests\obj\Debug\RestaurantMvc.Web.Tests.csprojResolveAssemblyReference.cache
