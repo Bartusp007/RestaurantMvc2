@@ -1,0 +1,81 @@
+﻿@using RestaurantMvc.Model.Models
+<script src="http://code.jquery.com/jquery-1.11.0.min.js"></script>
+@{
+    ViewBag.Title = "Home Page";
+}
+
+<div class="container home-page-section" style="width: 100%;">
+    <div class="row">
+        <div class="col-md-12">
+            <br />
+            <div class="col-md-6" style="margin-top: -70px"></div>
+            <div class="jumbotron">
+                <h1>Restauracja XYZ</h1>
+
+                <br />
+                <p>
+                    Zlokalizowana w dawnej tkalni fabry­ki Izraela Poznańskiego, obecnym centrum <br /> kulturalno – rozrywkowym – <b>Manufaktura Łódź.</b>
+                </p>
+
+                <p>
+                    Unikatowy charakter miejsca osiągnęliśmy dzięki odsłonię­ciu ścian z <b>czerwonej cegły</b>, odkopaniu zabytkowej piwnicy, własnym projek­tom mebli i wystroju lokalu.
+                </p>
+
+                <p>
+                    <b>XYZ</b> jest idealnym miejscem zarówno na eventy firmowe, jak i mniejsze <b>spotkania</b>
+                    w gronie przyjaciół i rodziny. Świet­nie rozpoznajemy potrzeby naszych klientów, nadając odpowiedni charak­ter realizowanym przez nas wydarze­niom.
+                    Do dyspozycji Gości oddajemy trzy poziomy restauracji, w tym salę VIP, która jest idealnym miejscem na spotkania w gronie do 20 osób..
+                </p>
+
+
+                <p>
+                    XYZ Bar
+                    to idealne miejsce na wieczornego drinka. Doświadczeni barmani, niczym w laboratorium, two­rzą nowe smaki i kreują niestandardo­we koktajle.
+                    Wielbiciele dobrej klasyki również znajdą tu coś dla siebie. Barmani z Bawełny jako jedyni z Łodzi znaleźli się
+                    w 2016 roku w ścisłej czołówce międzynarodowego konkursu barmańskiego World Class!
+                </p>
+            </div>
+        </div>
+        <div clas="col-md-6">
+            <div class="row">
+                <div class="col-md-4">
+
+                    <h2>Festiwal polskich smakow</h2>
+                    <p>
+                        Zaskoczymy Was doskonałymi daniami inspirowanymi tym co w polskiej kuchni najlepsze!
+                    </p>
+                    <p>
+                        <a class="btn btn-danger" href="http://go.microsoft.com/fwlink/?LinkId=301865">dowiec sie wiecej &raquo;</a>
+                    </p>
+                </div>
+                <div class="col-md-4">
+                    <h2>Swiateczne spotkanie filmowe</h2>
+                    <p>Zaplanujcie świąteczne spotkanie firmowe. Na organizację tego ważnego wydarzenia, nigdy nie jest za wcześnie!</p>
+                    <p>
+                        <a class="btn btn-danger" href="http://go.microsoft.com/fwlink/?LinkId=301866">dowiec sie wiecej &raquo;</a>
+                    </p>
+                </div>
+                <div class="col-md-4">
+                    <h2>Halloweene Party w XYZ!</h2>
+                    <p>W strasznych wnętrzach, zaserwujemy najlepsze koktajle w mieście -Bawełna Bar przygotował PREMIERĘ karty koktajl.</p>
+                    <p>
+                        <a class="btn btn-danger" href="http://go.microsoft.com/fwlink/?LinkId=301867">dowiec sie wiecej &raquo;</a>
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+<script>
+
+    $(document).ready(function () {
+
+        if ("@ViewBag.Message" === "ok") {
+            toastr.success("Reservation saved properly!!!");
+            @ViewBag.Message = "";
+        }
+    });
+</script>

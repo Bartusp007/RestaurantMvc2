@@ -1,0 +1,41 @@
+﻿<article>
+    <ul class="sidebar-nav">
+        <li class="sidebar-brand">
+           <p>Menu</p> 
+        </li>
+        <li>
+            <a href="#">@Ajax.ActionLink("Zupy","Category","Menu",new {category="Zupy"}, new AjaxOptions {UpdateTargetId = "menuList"}) </a>
+        </li>
+        <li>
+            <a href="#">@Ajax.ActionLink("Miesa", "Category","Menu", new { category = "Miesa" }, new AjaxOptions { UpdateTargetId = "menuList" })</a>
+        </li>
+        <li>
+            <a href="#">@Ajax.ActionLink("Przystawki", "Category", "Menu", new { category = "Przystawki" }, new AjaxOptions { UpdateTargetId = "menuList" })</a>
+        </li>
+        <li>
+            <a href="#">@Ajax.ActionLink("Ryby i owoce morza", "Category", "Menu", new { category = "Ryby i owoce morza" }, new AjaxOptions { UpdateTargetId = "menuList" })</a>
+        </li>
+        <li>
+            <a href="#">@Ajax.ActionLink("Salaty", "Category", "Menu", new { category = "Salaty" }, new AjaxOptions { UpdateTargetId = "menuList" })</a>
+        </li>
+        <li>
+            <a href="#">@Ajax.ActionLink("Makarony", "Category", "Menu", new { category = "Makarony" }, new AjaxOptions { UpdateTargetId = "menuList" })</a>
+        </li>
+        <li>
+            <a href="#">@Ajax.ActionLink("Pizza", "Category", "Menu", new { category = "Pizza" }, new AjaxOptions { UpdateTargetId = "menuList" })</a>
+        </li>
+        <li>
+            <a href="#">@Ajax.ActionLink("Desery", "Category", "Menu", new {category = "Desery"}, new AjaxOptions {UpdateTargetId = "menuList"})</a>
+        </li>
+        @if (User.IsInRole("admin") || User.IsInRole("staff") )
+        {
+            <li>
+                <a href="#">@Html.ActionLink(" Add dishes", "AddCategory", "Menu", new { area = "" }, new { @class = "btn btn-warning" })</a>
+            </li>
+        }
+
+       
+    </ul>
+</article>
+        
+  

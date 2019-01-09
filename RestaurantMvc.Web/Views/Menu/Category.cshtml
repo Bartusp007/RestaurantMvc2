@@ -1,0 +1,15 @@
+﻿@model IEnumerable<RestaurantMvc.ViewModel.ViewModels.MenuDishesViewModel>
+<script src="http://code.jquery.com/jquery-1.11.0.min.js"></script>
+
+@using (
+                Ajax.BeginForm(
+                    new AjaxOptions
+                    {
+                        HttpMethod = "GET",
+                        InsertionMode = InsertionMode.Replace,
+                        UpdateTargetId = "menuList"
+                    }))
+{
+    @Html.Partial("_MenuCategoryPartialView",Model)
+
+}

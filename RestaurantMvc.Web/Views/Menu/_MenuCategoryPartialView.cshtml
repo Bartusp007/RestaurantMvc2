@@ -1,0 +1,67 @@
+﻿@model IEnumerable<RestaurantMvc.ViewModel.ViewModels.MenuDishesViewModel>
+<div id="menuList">
+
+    <div class="jumbotron">
+        <h2>@ViewBag.Category</h2>
+    </div>
+
+    <br />
+    <br />
+    <table class="table">
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.Name)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Description)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Price)
+            </th>
+            @if (User.IsInRole("admin"))
+            {
+                <th>
+                    Delete
+                </th>
+            }
+            @if (User.IsInRole("admin")||User.IsInRole("staff"))
+            {
+                <th>
+                    Edit
+                </th>
+            }
+          
+        </tr>
+
+        @foreach (var item in Model)
+            {
+            <tr>
+                <td>
+                    @Html.DisplayFor(model => item.Name)
+                </td>
+                <td>
+                    @Html.DisplayFor(model => item.Description)
+                </td>
+                <td>
+                    @Html.DisplayFor(model => item.Price)
+                </td>
+                @if (User.IsInRole("admin"))
+                {
+                    <td>
+
+                        @Html.ActionLink(" ", "Delete", new { id = item.Id, categoryName = item.Category }, new { @class = "btn glyphicon glyphicon-trash", style = "color: red" })
+                    </td>
+                }    @if (User.IsInRole("admin")|| User.IsInRole("staff"))
+                {
+                    <td>
+
+                        @Html.ActionLink(" ", "Edit", new { id = item.Id}, new { @class = "btn glyphicon glyphicon-cog", style = "color: green" })
+                    </td>
+                }
+
+            </tr>
+        }
+
+    </table>
+</div>
+
