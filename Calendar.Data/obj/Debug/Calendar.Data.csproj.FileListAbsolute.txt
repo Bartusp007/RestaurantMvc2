@@ -1,0 +1,15 @@
+C:\p\CalendarAlg\Calendar.Data\bin\Debug\Calendar.Data.dll
+C:\p\CalendarAlg\Calendar.Data\bin\Debug\Calendar.Data.pdb
+C:\p\CalendarAlg\Calendar.Data\bin\Debug\EntityFramework.dll
+C:\p\CalendarAlg\Calendar.Data\bin\Debug\ServiceAccess.dll
+C:\p\CalendarAlg\Calendar.Data\bin\Debug\ServiceAccess.pdb
+C:\p\CalendarAlg\Calendar.Data\bin\Debug\EntityFramework.xml
+C:\p\CalendarAlg\Calendar.Data\obj\Debug\Calendar.Data.csprojResolveAssemblyReference.cache
+C:\p\CalendarAlg\Calendar.Data\obj\Debug\Calendar.Data.dll
+C:\p\CalendarAlg\Calendar.Data\obj\Debug\Calendar.Data.pdb
+C:\p\CalendarAlg\Calendar.Data\bin\Debug\Calendar.Data.dll.config
+C:\p\CalendarAlg\Calendar.Data\bin\Debug\EntityFramework.SqlServer.dll
+C:\p\CalendarAlg\Calendar.Data\bin\Debug\EntityFramework.SqlServer.xml
+C:\p\RestaurantMvc\Calendar.Data\obj\Debug\Calendar.Data.csprojResolveAssemblyReference.cache
+C:\p\RestaurantMvc\Calendar.Data\obj\Debug\Calendar.Data.dll
+C:\p\RestaurantMvc\Calendar.Data\obj\Debug\Calendar.Data.pdb
